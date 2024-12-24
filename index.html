@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        /* margin: 0 auto; */
+        /* padding: 0 auto; */
+      }
+      li {
+        color: yellow;
+      }
+      p {
+        color: rgb(red, green, blue);
+        color: rgba(red, green, blue, alpha);
+        color: hwb(hue white black);
+        /* width: 50%; */
+      }
+      .class {
+        text-align: center;
+      }
+      #shortid {
+        font-weight: bold;
+        font-size: larger;
+      }
+      .notice {
+        text-align: justify;
+        width: 100%;
+      }
+      a {
+        text-decoration: none;
+      }
+      input[type="submit"] {
+        border: 1px solid red;
+      }
+      input [required] {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 class="short" style="color: blueviolet">This is CSS</h3>
+    <p id="shortid" style="background-color: rebeccapurple">
+      CSS Means Cascading Style Sheet
+    </p>
+    <h1>We can implement CSS into 3 types</h1>
+    <ul>
+      <li>Internal CSS</li>
+      <li>External CSS</li>
+      <li>Inline CSS</li>
+    </ul>
+    <p class="notice">
+      The difference between class and ID is ID is unique use only one time but
+      class can be use on multiple tags
+    </p>
+    <a href="">This is a link</a>
+    <input type="text" placeholder="Enter your name" required />
+    <input type="submit" />
+  </body>
+</html>

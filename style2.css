@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+.blog {
+  height: 500px;
+  /* background-color: tomato; */
+  background-image: url("/demo.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px 20px;
+  border-radius: 20px;
+}
